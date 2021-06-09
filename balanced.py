@@ -22,9 +22,10 @@ def is_balance(my_str):
 
 
 def main():
-	inp = input('Please Enter Tags : ')
+	while True:
+		inp = input('Please Enter Tags : ')
 
-	print(is_balance(inp))
+		print(is_balance(inp))
 
 if __name__ == '__main__':
   main()
