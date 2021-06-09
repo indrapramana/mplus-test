@@ -1,7 +1,6 @@
 import sqlite3
 import json
 from os.path import isfile
-import collections
 from dummies import data_categories
 
 def create_db():
